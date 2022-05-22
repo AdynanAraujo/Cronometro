@@ -1,0 +1,48 @@
+body{
+    background-color: rgba(27, 66, 139, 0.459) ;
+    font-size: 5em;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+.item{
+   text-align: center;
+   margin-top: 35vh;
+}
+
+
+/* Botões */ 
+.comum {
+ height: 5em;
+ width: 5em;
+ border: none;
+ border-radius: 25%;
+ margin: 0.3em;
+}
+
+.iniciar{
+    background-color: rgba(72, 160, 72, 0.637);
+}
+
+.iniciar:hover{
+ background-color: rgba(113, 219, 113, 0.637);
+}
+
+.pausar{
+    background-color: rgba(196, 159, 58, 0.637);
+}
+
+.pausar:hover{
+ background-color: rgba(240, 198, 82, 0.637);
+}
+
+.zerar{
+    background-color: rgba(196, 74, 58, 0.637);
+}
+
+.zerar:hover{
+ background-color: rgba(241, 89, 69, 0.637);
+}
